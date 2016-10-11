@@ -1,0 +1,53 @@
+{
+    "author": "AssistList",
+    "dependencies": {},
+    "keywords": [],
+    "name": "assistlist",
+    "pebble": {
+        "displayName": "AssistList",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/unchecked.png",
+                    "name": "unchecked",
+                    "type": "png"
+                },
+                {
+                    "file": "images/unchecked - Copy.png",
+                    "name": "checked",
+                    "type": "png"
+                },
+                {
+                    "file": "images/menu_icon_simplicity.png",
+                    "name": "IMAGE_MENU_ICON_1",
+                    "type": "png"
+                },
+                {
+                    "file": "images/Drawing.png",
+                    "name": "logo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "fonts/CODE Bold.ttf",
+                    "name": "code_24",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "69a53987-379e-4ae7-a3c2-d08e5ffe8511",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
