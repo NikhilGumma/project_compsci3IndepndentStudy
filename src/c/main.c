@@ -29,11 +29,11 @@ static void main_window_load(Window *window) {
   int num_a_items = 0;
 
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
-    .title = "Biology",
+    .title = "Add Class",
     .callback = menu_select_callback,
 };
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
-    .title = "Language Arts",
+    .title = "Physics",
     .callback = menu_select_callback,
   };
   s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
@@ -45,7 +45,7 @@ static void main_window_load(Window *window) {
     .callback = menu_select_callback,
   };
  s_first_menu_items[num_a_items++] = (SimpleMenuItem) {
-    .title = "Misc.",
+    .title = "Computer Science",
     .callback = menu_select_callback,
   };
 
